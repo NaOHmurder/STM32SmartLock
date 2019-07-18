@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"exp4_local_pswd_lock\startup_stm32f103xe.o"
+"exp4_local_pswd_lock\keyboard.o"
+"exp4_local_pswd_lock\oled.o"
+"exp4_local_pswd_lock\main.o"
+"exp4_local_pswd_lock\stm32f1xx_it.o"
+"exp4_local_pswd_lock\stm32f1xx_hal_msp.o"
+"exp4_local_pswd_lock\stm32f1xx_hal_gpio_ex.o"
+"exp4_local_pswd_lock\stm32f1xx_hal_i2c.o"
+"exp4_local_pswd_lock\stm32f1xx_hal_tim.o"
+"exp4_local_pswd_lock\stm32f1xx_hal_tim_ex.o"
+"exp4_local_pswd_lock\stm32f1xx_hal_uart.o"
+"exp4_local_pswd_lock\stm32f1xx_hal.o"
+"exp4_local_pswd_lock\stm32f1xx_hal_rcc.o"
+"exp4_local_pswd_lock\stm32f1xx_hal_rcc_ex.o"
+"exp4_local_pswd_lock\stm32f1xx_hal_gpio.o"
+"exp4_local_pswd_lock\stm32f1xx_hal_dma.o"
+"exp4_local_pswd_lock\stm32f1xx_hal_cortex.o"
+"exp4_local_pswd_lock\stm32f1xx_hal_pwr.o"
+"exp4_local_pswd_lock\stm32f1xx_hal_flash.o"
+"exp4_local_pswd_lock\stm32f1xx_hal_flash_ex.o"
+"exp4_local_pswd_lock\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "exp4_local_pswd_lock\exp4_local_pswd_lock.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "exp4_local_pswd_lock.map" -o exp4_local_pswd_lock\exp4_local_pswd_lock.axf
